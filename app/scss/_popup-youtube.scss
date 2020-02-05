@@ -1,0 +1,23 @@
+// popup map -------------------------------------
+#youtube-video {
+    iframe {
+        width: 100%;
+        height: calc(100vh - 70px);
+        max-height: 800px;
+    }
+
+    .popup-modal-dismiss {
+        padding: 0.2rem 0.5rem;
+        font-size: 1.4rem;
+        margin: 10px 0 5px;
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #bf9e7b;
+        text-decoration: none;
+        display: inline-block;
+        float: right;
+    }
+    .mfp-close{
+        display: none;
+    }
+}

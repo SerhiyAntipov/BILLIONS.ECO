@@ -1,0 +1,394 @@
+@font-face {
+  font-family: Montserrat-Ligh;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+dl,
+ol,
+p,
+ul {
+  margin-bottom: 0.5rem;
+}
+
+html {
+  font-size: 16px;
+  font-family: Montserrat-Regular;
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+h1 {
+  font-family: Montserrat-SemiBold;
+  font-size: 3rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+h2 {
+  font-family: Montserrat-Regular;
+  font-size: 2.3rem;
+  color: #555555;
+}
+
+h2 span {
+  text-transform: uppercase;
+  color: #69b433;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Montserrat-SemiBold;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #69b433;
+  text-align: center;
+}
+
+h4 {
+  font-family: Montserrat-Regular;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #69b433;
+}
+
+h5 {
+  font-family: Montserrat-Regular;
+  font-size: 1rem;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+p {
+  font-family: Montserrat-Regular;
+  font-size: 1em;
+}
+
+.btn {
+  padding: 1rem 3rem;
+  background: #69b433;
+  background-color: #69b433;
+  color: #ffffff;
+  border-radius: initial;
+  font-family: Montserrat-Regular;
+  font-size: 1rem;
+  display: inline-block;
+  text-align: center;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: none;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #69b433;
+  box-sizing: border-box;
+}
+
+.btn-small {
+  font-family: Montserrat-SemiBold;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  margin: 0 10px;
+  background-color: transparent;
+  color: #69b433;
+  text-transform: unset;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+}
+
+.btn-small:hover {
+  color: #555555;
+  border: none;
+}
+
+#youtube-video iframe {
+  width: 100%;
+  height: calc(100vh - 70px);
+  max-height: 800px;
+}
+
+#youtube-video .popup-modal-dismiss {
+  padding: 0.2rem 0.5rem;
+  font-size: 1.4rem;
+  margin: 10px 0 5px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #bf9e7b;
+  text-decoration: none;
+  display: inline-block;
+  float: right;
+}
+
+#youtube-video .mfp-close {
+  display: none;
+}
+
+.main-header {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.navbar__wrapper .navbar {
+  padding: 0;
+}
+
+@media (max-width: 991px) {
+  .navbar__wrapper .navbar {
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar__wrapper .navbar-nav {
+    padding: 0 18px;
+  }
+}
+
+.navbar__wrapper .navbar-brand img {
+  max-width: 230px;
+  padding: 10px 0;
+}
+
+@media (max-width: 991px) {
+  .navbar__wrapper .navbar-brand img {
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar__wrapper .nav-item {
+    padding: 0 18px;
+  }
+}
+
+.navbar__wrapper .nav-link {
+  padding: 10px 20px;
+}
+
+.navbar__wrapper .nav-link-active {
+  color: #69b433;
+}
+
+.navbar__wrapper .nav-link .nav-item {
+  padding: 0 20px;
+}
+
+.navbar__wrapper .nav-login {
+  list-style: none;
+}
+
+@media (min-width: 992px) {
+  .navbar__wrapper .nav-login {
+    border-left: 1px solid #69b433;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar__wrapper .nav-login {
+    padding: 0 33px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar__wrapper .nav-login .nav-item {
+    padding: 0 10px;
+  }
+}
+
+.navbar__wrapper .nav-login__link {
+  display: inline-block;
+}
+
+.navbar__wrapper .nav-social {
+  padding: 25px 5px 25px 10px;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .navbar__wrapper .nav-social {
+    padding: 10px;
+  }
+}
+
+.navbar__wrapper .nav-social__link {
+  display: inline-block;
+}
+
+.navbar__wrapper .nav-social__link:last-child a {
+  padding-right: 0;
+}
+
+.navbar__wrapper .nav-social img {
+  width: 25px;
+}
+
+.navbar__wrapper .nav-social::after {
+  content: "";
+  display: block;
+  width: 1000px;
+  height: 100%;
+  background-color: #69b433;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.navbar__wrapper .nav-social .social-link {
+  padding: 4px;
+}
+
+.navbar__wrapper .navbar-toggler {
+  position: relative;
+  min-height: 25px;
+  min-width: 30px;
+  outline: none;
+}
+
+.navbar__wrapper .navbar-toggler .navbar-toggler-icon {
+  width: 30px;
+  height: 2px;
+  background-color: #69b433;
+  position: absolute;
+  top: 11px;
+  left: 0;
+}
+
+.navbar__wrapper .navbar-toggler .navbar-toggler-icon::after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #69b433;
+  display: block;
+  position: absolute;
+  bottom: -8px;
+  transition: 0.5s all;
+  transform: rotate(0);
+}
+
+.navbar__wrapper .navbar-toggler .navbar-toggler-icon::before {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #69b433;
+  display: block;
+  position: absolute;
+  top: -8px;
+  transition: 0.5s all;
+  transform: rotate(0);
+}
+
+.navbar__wrapper .navbar-toggler[aria-expanded="true"] {
+  position: relative;
+  min-height: 25px;
+  min-width: 30px;
+  outline: none;
+}
+
+.navbar__wrapper .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-color: transparent;
+  top: 11px;
+  left: 0;
+}
+
+.navbar__wrapper .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+  content: "";
+  bottom: 0;
+  transition: 0.5s all;
+  transform: rotate(45deg);
+}
+
+.navbar__wrapper .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+  content: "";
+  top: 0;
+  transition: 0.5s all;
+  transform: rotate(-45deg);
+}
+
+@media (min-width: 992px) {
+  .navbar__wrapper .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+
+.navbar__wrapper a {
+  color: #555555;
+}
+
+.navbar__wrapper a:hover {
+  color: #69b433;
+}
+
+.wrapper {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  max-width: 1920px;
+}
+
+section {
+  padding: 40px 0 50px;
+  overflow: hidden;
+}
+
+@media (max-width: 575px) {
+  section {
+    padding: 20px 0 35px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1230px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
