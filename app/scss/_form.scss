@@ -1,0 +1,22 @@
+.contact-us {
+    .container-header {
+        text-transform: uppercase;
+    }
+
+    .form-group input {
+        margin-bottom: 30px;
+        border: none;
+        border-right: 1px solid $c-grey;
+        border-radius: 0px;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+
+    textarea {
+        border: none;
+        border-right: 1px solid $c-grey;
+        border-radius: 0px;
+    }
+}

@@ -67,30 +67,31 @@
     
 })();
 //
-//++++++++++++++ SLIDER BEST PRICE  ++++++++++++++++++++++++++++++++++++++++++++++
+//++++++++++++++ SLIDER  LATEST NEWS  ++++++++++++++++++++++++++++++++++++++++++++++
 
-// render Best price slider
+// render slider Latest News
 function sliderLatestNews(latestNews){
-    console.log(latestNews)
     let latestNewsSliders = document.querySelector('.latest-news-slider')
     let latestNewsSlide = '';
     latestNews.forEach(function (data, i) {
         latestNewsSlide +=
             `
-      <div class="latest-mews-slider__slide">
+      <div class="latest-news-slider__slide">
           <img src="${latestNews[i]['url']}" alt="img ${latestNews[i]['title']}">
-          <div class="latest-mews-slider__text-container">
-              <h4 class="latest-mews-slider__title">${latestNews[i]['title']}</h4>
-              <p class="latest-mews-slider__sub-title">${latestNews[i]['sub-title']}</p>
-              <span class="latest-mews-slider__date">${latestNews[i]['date']}</span>
-              <a class="latest-mews-slider__link" href="${latestNews[i]['link']}">Read more</a>
+          <div class="latest-news-slider__text-container">
+              <h4 class="latest-news-slider__title">${latestNews[i]['title']}</h4>
+              <p class="latest-news-slider__sub-title">${latestNews[i]['sub-title']}</p>
+              <div class="latest-news-slider__link">
+                  <span class="latest-news-slider__link-date">${latestNews[i]['date']}</span>
+                  <a class="latest-news-slider__link-link" href="${latestNews[i]['link']}">Read more</a>
+              </div>
           </div>
       </div>`
     });
     latestNewsSliders.innerHTML = latestNewsSlide
     startLatestNewsSlider();
 }
-// best price slider ("Slick slider")
+// slider Latest News ("Slick slider")
 function startLatestNewsSlider() {
     $('.latest-news-slider').slick({
         infinite: true,
@@ -106,8 +107,8 @@ function startLatestNewsSlider() {
                     infinite: true,
                     adaptiveHeight: true,
                     edgeFriction: '0.5',
-                    slidesToShow: 4,
-                    slidesToScroll: 4,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
                     dots: true,
                 }
             },
@@ -117,8 +118,8 @@ function startLatestNewsSlider() {
                     infinite: true,
                     adaptiveHeight: true,
                     edgeFriction: '0.5',
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                     dots: true,
                 }
             },
@@ -128,8 +129,8 @@ function startLatestNewsSlider() {
                     infinite: true,
                     adaptiveHeight: true,
                     edgeFriction: '0.5',
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                     dots: true,
                 }
             }

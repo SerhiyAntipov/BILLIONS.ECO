@@ -1,48 +1,96 @@
 [{
         "data-id": "1",
         "title": "Lorem ipsum dolor sit amet",
-        "sub-title": "Free two-day vegan jumpstart program, which includes a meal plan, recipes, a grocery shopping list, and cooking tips, along with inspiring emails over the next 90 days",
-        "date": "07/11/2019",
+        "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+        "date": "07 / 11 / 2019",
         "link": "#",
         "url": "img/latest-news-slider/latest-news_01.jpg"
     },
     {
         "data-id": "2",
-        "title": "It`s been amazing to see the",
-        "sub-title": "African Americans experience the highest rates of heart disease, stroke, diabetes, and cancer in the United States. Launched in celebration",
-        "date": "08/12/2019",
+        "title": "Lorem ipsum dolor sit amet",
+        "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+        "date": "07 / 11 / 2019",
         "link": "#",
         "url": "img/latest-news-slider/latest-news_02.jpg"
     },
     {
         "data-id": "3",
-        "title": "The program, called 10,000 Black",
-        "sub-title": "The program supports women`s diet change through a series of 21-day `Fresh Starts,` which include online video training, meal plans, vegan recipes",
-        "date": "12/01/2020",
+        "title": "Lorem ipsum dolor sit amet",
+        "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+        "date": "07 / 11 / 2019",
         "link": "#",
         "url": "img/latest-news-slider/latest-news_03.jpg"
     },
     {
         "data-id": "4",
-        "title": "Participants who sign up now",
+        "title": "Lorem ipsum dolor sit amet",
         "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
-        "date": "18/01/2020",
+        "date": "07 / 11 / 2019",
         "link": "#",
         "url": "img/latest-news-slider/latest-news_04.jpg"
     },
     {
         "data-id": "5",
-        "title": "We are leaders in so many",
-        "sub-title": "We are leaders in so many progressive ways, but we are in a crisis when it comes to our health`and while there are many reasons for this, we have the power to`",
-        "date": "29/01/2020",
+        "title": "Lorem ipsum dolor sit amet",
+        "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+        "date": "07 / 11 / 2019",
         "link": "#",
         "url": "img/latest-news-slider/latest-news_05.jpg"
     },
     {
         "data-id": "6",
-        "title": "Eating affordable, nutritious",
-        "sub-title": "Eating affordable, nutritious, and delicious plant-based foods is one of the best ways for us to get healthy now and for the rest of our lives.` Participants who sign up now will`",
-        "date": "05/02/2020",
+        "title": "Lorem ipsum dolor sit amet",
+        "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+        "date": "07 / 11 / 2019",
+        "link": "#",
+        "url": "img/latest-news-slider/latest-news_06.jpg"
+    },
+    {
+        "data-id": "7",
+        "title": "Lorem ipsum dolor sit amet",
+        "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+        "date": "07 / 11 / 2019",
+        "link": "#",
+        "url": "img/latest-news-slider/latest-news_01.jpg"
+    },
+    {
+        "data-id": "8",
+        "title": "Lorem ipsum dolor sit amet",
+        "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+        "date": "07 / 11 / 2019",
+        "link": "#",
+        "url": "img/latest-news-slider/latest-news_03.jpg"
+    },
+    {
+        "data-id": "9",
+        "title": "Lorem ipsum dolor sit amet",
+        "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+        "date": "07 / 11 / 2019",
+        "link": "#",
+        "url": "img/latest-news-slider/latest-news_02.jpg"
+    },
+    {
+        "data-id": "10",
+        "title": "Lorem ipsum dolor sit amet",
+        "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+        "date": "07 / 11 / 2019",
+        "link": "#",
+        "url": "img/latest-news-slider/latest-news_05.jpg"
+    },
+    {
+        "data-id": "11",
+        "title": "Lorem ipsum dolor sit amet",
+        "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+        "date": "07 / 11 / 2019",
+        "link": "#",
+        "url": "img/latest-news-slider/latest-news_04.jpg"
+    },
+    {
+        "data-id": "12",
+        "title": "Lorem ipsum dolor sit amet",
+        "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+        "date": "07 / 11 / 2019",
         "link": "#",
         "url": "img/latest-news-slider/latest-news_06.jpg"
     }

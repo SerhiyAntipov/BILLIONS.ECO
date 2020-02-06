@@ -2,6 +2,7 @@
 @import "fonts";
 @import "typography";
 @import "main-menu";
+@import "form";
 @import "slider-latest-news";
 @import "popup-youtube";
 
@@ -15,7 +16,8 @@
 
 section{
     padding: 40px 0 50px;
-    overflow: hidden;
+    // overflow: hidden;
+    text-align: center;
 
     @media (max-width: 575px) {
         padding: 20px 0 35px;
