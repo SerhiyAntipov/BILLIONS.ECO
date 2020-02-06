@@ -103,7 +103,9 @@ h4 {
 
 h5 {
   font-family: Montserrat-Regular;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 a {
@@ -366,6 +368,31 @@ p {
 
 .navbar__wrapper a:hover {
   color: #69b433;
+}
+
+.services {
+  padding-top: 0px;
+}
+
+.services__heading {
+  background-color: #69b433;
+}
+
+.services__heading .size {
+  font-family: Montserrat-SemiBold;
+  font-size: 2.3rem;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 575px) {
+  .services__heading .d-flex {
+    flex-direction: column;
+  }
+}
+
+.services img {
+  width: auto;
+  height: 58px;
 }
 
 .contact-us .container-header {

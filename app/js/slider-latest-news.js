@@ -56,7 +56,7 @@ function startLatestNewsSlider() {
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 575,
                 settings: {
                     infinite: true,
                     adaptiveHeight: true,

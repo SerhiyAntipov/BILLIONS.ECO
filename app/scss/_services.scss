@@ -1,0 +1,20 @@
+.services{
+    padding-top: 0px;
+    &__heading{
+        background-color: $c-green;
+        .size{
+            font-family: Montserrat-SemiBold;
+            font-size: 2.3rem;
+            color: $c-white;
+        }
+        .d-flex{
+            @media only screen and (max-width: 575px) {
+                flex-direction: column;
+            }
+        }
+    }
+    img{
+        width: auto;
+        height: 58px;
+    }
+}
