@@ -1,20 +1,37 @@
 .main-footer {
     background-color: $c-black-semi;
-    padding-top: 40px;
+    // padding-top: 40px;
 
     @media only (min-width: 991px) {
-        padding-top: 70px;
+        padding-top: 30px;
     }
 
     @media only (min-width: 1200px) {
-        padding-top: 103px;
+        padding-top: 58px;
+    }
+
+    &__block {
+        padding-top: 40px;
     }
 
     .post {
         border-bottom: 1px solid $c-grey-dark;
         margin-bottom: 0.9rem;
     }
-
+    .title {
+        color: $c-white;
+        font-size: 1.5rem;
+        text-transform: unset;
+        font-family: Montserrat-Regular, sans-serif;
+        margin-bottom: 20px;
+        a {
+            color: $c-white;
+            font-size: 1.5rem;
+            display: inline-block;
+            cursor: pointer;
+            font-family: Montserrat-SemiBold, sans-serif;
+        }
+    }
     .text {
         margin-bottom: .9rem;
         line-height: 1.4rem;
@@ -36,13 +53,14 @@
                 width: 100%;
                 max-width: 226px;
                 margin-bottom: 35px;
+                padding-top: 10px;
             }
 
             .sub-title {
                 line-height: 1.5rem;
             }
 
-            a {
+            a:last-child {
                 color: $c-grey-little;
 
                 &::after {
@@ -61,15 +79,18 @@
             .post:last-child {
                 border-bottom: none;
             }
-            span{
+
+            span {
                 color: $c-green;
             }
         }
+
         &:nth-child(3) {
             .post:last-child {
                 border-bottom: none;
             }
-            span{
+
+            span {
                 color: $c-green;
             }
         }
@@ -78,36 +99,39 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            .title{
+                margin-bottom: -5px;
+            }
 
             img {
                 width: 100%;
                 max-width: 270px;
                 display: block;
                 margin: 0 auto;
+                padding-top: 10px;
             }
         }
     }
 
-    h5 {
-        text-transform: unset;
-    }
-    
     .footer-bottom {
         background-color: $c-black-light;
         text-align: center;
         padding: 40px 15px;
-       a{
-           display: inline-block;
-           color: $c-grey-semi;
-           border-right: 1px solid $c-grey-semi;
-           padding:0 10px;
-           font-size: 0.8rem;
-           &:last-child{
-            border-right: none;
-           }
-       }
-       span{
-           color: $c-green;
-       }
+
+        a {
+            display: inline-block;
+            color: $c-grey-semi;
+            border-right: 1px solid $c-grey-semi;
+            padding: 0 10px;
+            font-size: 0.8rem;
+
+            &:last-child {
+                border-right: none;
+            }
+        }
+
+        span {
+            color: $c-green;
+        }
     }
 }

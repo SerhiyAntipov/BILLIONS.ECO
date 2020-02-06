@@ -14,7 +14,7 @@ let concat = require('gulp-concat');
 
 
 // MODULES +++++++++++++++++++++
-let addModules = ['jquery', 'bootstrap', 'normalize-css', 'smooth-scroll', 'slick-carousel', 'magnific-popup']
+let addModules = ['jquery', 'normalize-css', 'bootstrap', 'smooth-scroll', 'slick-carousel', 'magnific-popup']
 // jquery
 gulp.task('jquery', async function () {
   gulp.src('node_modules/jquery/dist/jquery.min.js')
@@ -165,6 +165,10 @@ gulp.task('minifyJsCss', async function minifyJsCss() {
     .pipe(gulp.dest('app/css'));
   gulp.src([
       'app/modules/jquery/js/jquery.min.js',
+      'app/modules/bootstrap/js/bootstrap.min.js',
+      'app/modules/slick/js/slick.min.js',
+      'app/modules/smooth-scroll/js/smooth-scroll.min.js',
+      'app/modules/magnific-popup/js/jquery.magnific-popup.min.js',
       'app/modules/**/**/*.js'
     ])
     .pipe(concat('all.modules.min.js'))
