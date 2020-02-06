@@ -2,9 +2,10 @@
 @import "fonts";
 @import "typography";
 @import "main-menu";
-@import "services";
-@import "form";
 @import "slider-latest-news";
+@import "services";
+@import "video";
+@import "form";
 @import "popup-youtube";
 
 
@@ -13,6 +14,7 @@
     min-width: 320px;
     scroll-behavior: smooth;
     max-width: 1920px;
+    margin: 0 auto;
 }
 
 section{
