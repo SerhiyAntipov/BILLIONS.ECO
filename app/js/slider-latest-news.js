@@ -1,42 +1,37 @@
 //
 //++++++++++++++ SLIDER BEST PRICE  ++++++++++++++++++++++++++++++++++++++++++++++
-// filter slider data
-function sliderBestPrice(menuData) {
-    let bestPrice = menuData.filter(function (data, i, object) {
-        if (data["best-price"] == 'yes') return true
-    })
-    renderBestPriceSlider(bestPrice);
-}
+
 // render Best price slider
-function renderBestPriceSlider(bestPrice) {
-    let bestPriceSliders = document.querySelector('.price-slider')
-    let bestPriceSlide = '';
-    bestPrice.forEach(function (data, i) {
-        bestPriceSlide +=
+function sliderLatestNews(latestNews){
+    console.log(latestNews)
+    let latestNewsSliders = document.querySelector('.latest-news-slider')
+    let latestNewsSlide = '';
+    latestNews.forEach(function (data, i) {
+        latestNewsSlide +=
             `
-      <div class="price-slider__slide">
-          <img src="${bestPrice[i]['url']}" alt="img ${bestPrice[i]['food-name']}">
-          <div class="price-slider__text-container">
-              <h4 class="price-slider__price">$${bestPrice[i]['food-price']}</h4>
-              <p class="price-slider__name">${bestPrice[i]['food-name']}</p>
-              <span>07/11/2018</span>
-              <button class="btn-small">Read More</button>
+      <div class="latest-mews-slider__slide">
+          <img src="${latestNews[i]['url']}" alt="img ${latestNews[i]['title']}">
+          <div class="latest-mews-slider__text-container">
+              <h4 class="latest-mews-slider__title">${latestNews[i]['title']}</h4>
+              <p class="latest-mews-slider__sub-title">${latestNews[i]['sub-title']}</p>
+              <span class="latest-mews-slider__date">${latestNews[i]['date']}</span>
+              <a class="latest-mews-slider__link" href="${latestNews[i]['link']}">Read more</a>
           </div>
       </div>`
     });
-    bestPriceSliders.innerHTML = bestPriceSlide
-    startPriceSlider();
+    latestNewsSliders.innerHTML = latestNewsSlide
+    startLatestNewsSlider();
 }
 // best price slider ("Slick slider")
-function startPriceSlider() {
-    $('.price-slider').slick({
+function startLatestNewsSlider() {
+    $('.latest-news-slider').slick({
         infinite: true,
         adaptiveHeight: true,
         edgeFriction: '0.5',
         slidesToShow: 4,
         slidesToScroll: 4,
         dots: true,
-        arrows: true,
+        arrows: false,
         responsive: [{
                 breakpoint: 980,
                 settings: {

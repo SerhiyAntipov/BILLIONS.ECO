@@ -1,119 +1,119 @@
 // typography -------------------------------------
 @import "vars";
 
-dl,
-ol,
-p,
-ul {
-    margin-bottom: 0.5rem;
-}
+// dl,
+// ol,
+// p,
+// ul {
+//     margin-bottom: 0.5rem;
+// }
 
-html {
-    font-size: 16px;
-    font-family: Montserrat-Regular;
+// html {
+//     font-size: 16px;
+//     font-family: Montserrat-Regular;
 
-    @media only screen and (max-width: 1200px) {
-        font-size: 15px;
-    }
+//     @media only screen and (max-width: 1200px) {
+//         font-size: 15px;
+//     }
 
-    @media only screen and (max-width: 960px) {
-        font-size: 14px;
-    }
+//     @media only screen and (max-width: 960px) {
+//         font-size: 14px;
+//     }
 
-    @media only screen and (max-width: 768px) {
-        font-size: 13px;
-    }
+//     @media only screen and (max-width: 768px) {
+//         font-size: 13px;
+//     }
 
-    @media only screen and (max-width: 540px) {
-        font-size: 12px;
-    }
-}
+//     @media only screen and (max-width: 540px) {
+//         font-size: 12px;
+//     }
+// }
 
-h1 {
-    font-family: Montserrat-SemiBold;
-    font-size: 3rem;
-    color: $c-white;
-    text-transform: uppercase;
-    text-align: left;
-}
+// h1 {
+//     font-family: Montserrat-SemiBold;
+//     font-size: 3rem;
+//     color: $c-white;
+//     text-transform: uppercase;
+//     text-align: left;
+// }
 
-h2 {
-    font-family:  Montserrat-Regular;
-    font-size: 2.3rem;
-    color: $c-grey-dark;
-    span{
-        text-transform: uppercase;
-        color: $c-green;
-        font-weight: bold;
-    }
-}
+// h2 {
+//     font-family:  Montserrat-Regular;
+//     font-size: 2.3rem;
+//     color: $c-grey-dark;
+//     span{
+//         text-transform: uppercase;
+//         color: $c-green;
+//         font-weight: bold;
+//     }
+// }
 
-h3 {
-    font-family: Montserrat-SemiBold;
-    font-size: 1.7rem;
-    text-transform: uppercase;
-    color: $c-green;
-    text-align: center;
-}
+// h3 {
+//     font-family: Montserrat-SemiBold;
+//     font-size: 1.7rem;
+//     text-transform: uppercase;
+//     color: $c-green;
+//     text-align: center;
+// }
 
-h4 {
-    font-family: Montserrat-Regular;
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    color: $c-green;
-}
+// h4 {
+//     font-family: Montserrat-Regular;
+//     font-size: 1.4rem;
+//     text-transform: uppercase;
+//     color: $c-green;
+// }
 
-h5 {
-    font-family:  Montserrat-Regular;
-    font-size: 1rem;
-}
+// h5 {
+//     font-family:  Montserrat-Regular;
+//     font-size: 1rem;
+// }
 
-a {
-    display: block;
-    text-decoration: none;
-}
+// a {
+//     display: block;
+//     text-decoration: none;
+// }
 
 
-p {
-    font-family:  Montserrat-Regular;
-    font-size: 1em;
-}
+// p {
+//     font-family:  Montserrat-Regular;
+//     font-size: 1em;
+// }
 
-.btn {
-    padding: 1rem 3rem;
-    background: $c-green;
-    background-color: $c-green;
-    color: $c-white;
-    border-radius: initial;
-    font-family: Montserrat-Regular;
-    font-size: 1rem;
-    display: inline-block;
-    text-align: center;
-    margin: 1rem 0;
-    cursor: pointer;
+// .btn {
+//     padding: 1rem 3rem;
+//     background: $c-green;
+//     background-color: $c-green;
+//     color: $c-white;
+//     border-radius: initial;
+//     font-family: Montserrat-Regular;
+//     font-size: 1rem;
+//     display: inline-block;
+//     text-align: center;
+//     margin: 1rem 0;
+//     cursor: pointer;
 
-    &:hover {
-        background: none;
-        background-color: $c-transparent;
-        color: $c-white;
-        border: 1px solid $c-green;
-        box-sizing: border-box;
-    }
+//     &:hover {
+//         background: none;
+//         background-color: $c-transparent;
+//         color: $c-white;
+//         border: 1px solid $c-green;
+//         box-sizing: border-box;
+//     }
     
-    &-small {
-        font-family: Montserrat-SemiBold;
-        padding: 0.2rem 0.5rem;
-        font-size: 1rem;
-        margin: 0 10px;
-        background-color: $c-transparent;
-        color:  $c-green;
-        text-transform: unset;
-        text-decoration: none;
-        display: inline-block;
-        border: none;
-            &:hover {
-           color: $c-grey-dark;
-           border: none;
-        }
-    }
-}
+//     &-small {
+//         font-family: Montserrat-SemiBold;
+//         padding: 0.2rem 0.5rem;
+//         font-size: 1rem;
+//         margin: 0 10px;
+//         background-color: $c-transparent;
+//         color:  $c-green;
+//         text-transform: unset;
+//         text-decoration: none;
+//         display: inline-block;
+//         border: none;
+//             &:hover {
+//            color: $c-grey-dark;
+//            border: none;
+//         }
+//     }
+// }
