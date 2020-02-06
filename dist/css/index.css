@@ -651,12 +651,12 @@ p {
   padding-top: 40px;
 }
 
-.main-footer .post {
+.main-footer__block .post {
   border-bottom: 1px solid #555555;
   margin-bottom: 0.9rem;
 }
 
-.main-footer .title {
+.main-footer__block .title {
   color: #ffffff;
   font-size: 1.5rem;
   text-transform: unset;
@@ -664,7 +664,7 @@ p {
   margin-bottom: 20px;
 }
 
-.main-footer .title a {
+.main-footer__block .title a {
   color: #ffffff;
   font-size: 1.5rem;
   display: inline-block;
@@ -672,17 +672,17 @@ p {
   font-family: Montserrat-SemiBold, sans-serif;
 }
 
-.main-footer .text {
+.main-footer__block .text {
   margin-bottom: .9rem;
   line-height: 1.4rem;
 }
 
-.main-footer .date {
+.main-footer__block .date {
   margin-bottom: 4px;
   font-size: 0.8rem;
 }
 
-.main-footer .time {
+.main-footer__block .time {
   margin-bottom: 5px;
   margin-top: -10px;
 }
@@ -716,16 +716,8 @@ p {
   border-bottom: none;
 }
 
-.main-footer__block:nth-child(2) span {
-  color: #69b433;
-}
-
 .main-footer__block:nth-child(3) .post:last-child {
   border-bottom: none;
-}
-
-.main-footer__block:nth-child(3) span {
-  color: #69b433;
 }
 
 .main-footer__block:last-child {
@@ -764,7 +756,7 @@ p {
   border-right: none;
 }
 
-.main-footer .footer-bottom span {
+.main-footer span {
   color: #69b433;
 }
 
