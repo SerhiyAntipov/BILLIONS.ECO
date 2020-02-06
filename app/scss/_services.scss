@@ -8,8 +8,9 @@
     &__heading {
         background-color: $c-green;
         margin-bottom: 20px;
+        padding-bottom: 5px;
         @media only (min-width: 1200px) {
-            margin-bottom: 90px;
+            margin-bottom: 85px;
         }
 
         .size {

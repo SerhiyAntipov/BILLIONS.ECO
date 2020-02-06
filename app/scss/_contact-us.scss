@@ -1,5 +1,9 @@
 .contact-us {
     background-color: $c-grey-little;
+    @media only (min-width: 991px) {
+        padding-top: 80px;
+        padding-bottom: 125px;
+    }
     .container-header {
         text-transform: uppercase;
     }
@@ -22,5 +26,10 @@
         border-right: 1px solid $c-grey;
         border-radius: 0px;
         background-color: $c-grey-little;
+    }
+    button{
+        @media only (min-width: 991px) {
+            margin-top: 5px;
+        }
     }
 }
