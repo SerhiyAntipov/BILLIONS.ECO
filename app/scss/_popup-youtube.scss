@@ -2,23 +2,40 @@
 #youtube-video {
     iframe {
         width: 100%;
-        height: calc(100vh - 70px);
-        max-height: 800px;
+        height: calc(100vh - 100px);
+        max-height: 600px;
         border: none;
     }
 
     .popup-modal-dismiss {
-        padding: 0.2rem 0.5rem;
-        font-size: 1.4rem;
-        margin: 10px 0 5px;
-        background-color: transparent;
-        color: #ffffff;
-        border: 1px solid #bf9e7b;
-        text-decoration: none;
-        display: inline-block;
-        float: right;
+        min-height: 50px;
+        text-align: right;
+        padding-top: 10px;
+        padding-right: 10px;
+
+        span {
+            width: 40px;
+            height: 3px;
+            display: inline-block;
+            background-color: $c-green;
+            transform: rotate(45deg);
+            position: relative;
+
+            &::after {
+                content: "";
+                width: 40px;
+                height: 3px;
+                background-color: $c-green;
+                transform: rotate(90deg);
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+
     }
-    .mfp-close{
+
+    .mfp-close {
         display: none;
     }
 }

@@ -2,7 +2,7 @@
 //++++++++++++++ POPUP MAP WINDOW ++++++++++++++++++++++++++++++++++++++++++++++
 (function () {
     $(function () {
-        $('.popup-modal').magnificPopup({
+        $('.video__info').magnificPopup({
             items: {
                 src: '#youtube-video',
                 type: 'inline',

@@ -112,12 +112,11 @@ gulp.task('json', async function () {
 gulp.task('js', async function () {
   del.sync('app/js/libs.js');
   gulp.src([
-      'app/js/index.js',
       'app/js/*.js',
       '!app/js/all.modules.min.js',
-      '!app/js/libs.js'
+      '!app/js/index.js',
     ])
-    .pipe(concat('libs.js'))
+    .pipe(concat('index.js'))
     // .pipe(uglify())
     .pipe(gulp.dest('app/js'))
     .pipe(browserSync.reload({
@@ -141,7 +140,7 @@ gulp.task('watch', async function () {
   gulp.watch('app/scss/**/*.scss', gulp.parallel('scss'));
   gulp.watch('app/*.html', gulp.parallel('html'));
   gulp.watch('app/**/*.json', gulp.parallel('json'));
-  gulp.watch(['app/js/*.js', '!app/js/all.modules.min.js', '!app/js/libs.js'], gulp.parallel('js'));
+  gulp.watch(['app/js/*.js', '!app/js/all.modules.min.js', '!app/js/index.js'], gulp.parallel('js'));
 });
 //=============================
 
