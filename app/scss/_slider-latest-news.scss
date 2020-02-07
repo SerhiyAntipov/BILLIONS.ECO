@@ -4,6 +4,10 @@
     background-size: cover;
     background-position: top 10px center;
     position: relative;
+   
+    @media (min-width: 1200px) {
+        margin-top: -63px;
+    }
 }
 
 .latest-news-slider {

@@ -4,12 +4,13 @@
     background-position: top center;
     position: relative;
     height: 927px;
-    max-height: calc(100vh - 140px);
+    max-height: calc(100vh - 200px);
     padding: 0;
     overflow: hidden;
 
     @media only screen and (max-width: 991px) {
         height: auto;
+        max-height: unset;
     }
 
     &::after {

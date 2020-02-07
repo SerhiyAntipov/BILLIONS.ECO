@@ -394,7 +394,7 @@ p {
   background-position: top center;
   position: relative;
   height: 927px;
-  max-height: calc(100vh - 140px);
+  max-height: calc(100vh - 200px);
   padding: 0;
   overflow: hidden;
 }
@@ -402,6 +402,7 @@ p {
 @media only screen and (max-width: 991px) {
   .map {
     height: auto;
+    max-height: unset;
   }
 }
 
@@ -497,12 +498,208 @@ p {
   max-width: 365px;
 }
 
+.login {
+  margin-top: -157px;
+  z-index: 9;
+  position: relative;
+  padding-bottom: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .login {
+    margin-top: 10px;
+  }
+}
+
+.login .login-sub-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1280px) {
+  .login .login-sub-menu {
+    flex-direction: column;
+  }
+}
+
+.login .login-sub-menu .vegan,
+.login .login-sub-menu .vegetarian,
+.login .login-sub-menu .support-ecology {
+  max-width: 360px;
+  min-width: 350px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 575px) {
+  .login .login-sub-menu .vegan,
+  .login .login-sub-menu .vegetarian,
+  .login .login-sub-menu .support-ecology {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+
+.login .login-sub-menu .vegan img,
+.login .login-sub-menu .vegetarian img,
+.login .login-sub-menu .support-ecology img {
+  width: 72px;
+  height: 72px;
+}
+
+.login .login-sub-menu p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0;
+  line-height: 1.4;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.login .login-sub-menu .vegan {
+  background-color: #b48833;
+}
+
+@media only screen and (min-width: 575px) {
+  .login .login-sub-menu .vegan::after {
+    content: "";
+    position: absolute;
+    right: -84px;
+    border: 46px solid transparent;
+    border-left: 38px solid #b48833;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 575px) {
+  .login .login-sub-menu .vegan::before {
+    content: "";
+    position: absolute;
+    left: -84px;
+    border: 46px solid transparent;
+    border-right: 38px solid #b48833;
+  }
+}
+
+.login .login-sub-menu .vegetarian {
+  background-color: #69b433;
+}
+
+@media only screen and (min-width: 575px) {
+  .login .login-sub-menu .vegetarian {
+    margin-left: 54px;
+    margin-right: 54px;
+  }
+}
+
+@media only screen and (min-width: 575px) {
+  .login .login-sub-menu .vegetarian::after {
+    content: "";
+    position: absolute;
+    border: 38px solid transparent;
+    border-top: 46px solid #69b433;
+    border-bottom: 46px solid #69b433;
+    z-index: -1;
+    left: -38px;
+  }
+  .login .login-sub-menu .vegetarian::before {
+    content: "";
+    position: absolute;
+    border: 38px solid transparent;
+    border-top: 46px solid #69b433;
+    border-bottom: 46px solid #69b433;
+    z-index: -1;
+    right: -38px;
+  }
+}
+
+.login .login-sub-menu .support-ecology {
+  background-color: #2992d0;
+}
+
+@media only screen and (min-width: 575px) {
+  .login .login-sub-menu .support-ecology::after {
+    content: "";
+    position: absolute;
+    left: -84px;
+    border: 46px solid transparent;
+    border-right: 38px solid #2992d0;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 575px) {
+  .login .login-sub-menu .support-ecology::before {
+    content: "";
+    position: absolute;
+    right: -84px;
+    border: 46px solid transparent;
+    border-left: 38px solid #2992d0;
+  }
+}
+
+.login .link {
+  padding: 20px;
+}
+
+.login .link a {
+  display: inline-block;
+  border-right: 1px solid #555555;
+  cursor: pointer;
+  padding: 0 5px;
+  font-size: 1.4rem;
+}
+
+.login .link a:last-child {
+  border-right: none;
+}
+
+.login .statistics-data {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.login .flag {
+  background-color: #fbfbfb91;
+  border-radius: 10px;
+  padding: 10px;
+  width: 260px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #555555;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.login .flag:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 8px solid transparent;
+  border-top: 14px solid #fbfbfb91;
+  left: 50%;
+  bottom: -33px;
+  transform: translate(-50%, -50%);
+}
+
 .latest-news {
   background: url(../img/latest-news_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top 10px center;
   position: relative;
+}
+
+@media (min-width: 1200px) {
+  .latest-news {
+    margin-top: -63px;
+  }
 }
 
 .latest-news-slider {
