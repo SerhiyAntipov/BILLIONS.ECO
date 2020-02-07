@@ -180,7 +180,7 @@ gulp.task('export', async function () {
   del.sync('dist');
   gulp.src('app/**/*.html').pipe(gulp.dest('dist'));
   gulp.src('app/css/**/*.*').pipe(gulp.dest('dist/css'));
-  gulp.src(['app/js/all.modules.min.js', 'app/js/libs.js']).pipe(gulp.dest('dist/js'));
+  gulp.src(['app/js/all.modules.min.js', 'app/js/index.js']).pipe(gulp.dest('dist/js'));
   gulp.src('app/**/*.json').pipe(gulp.dest('dist'));
   gulp.src('app/fonts/**/*.*').pipe(gulp.dest('dist/fonts'));
   gulp.src('app/data/*.*').pipe(gulp.dest('dist/data'));

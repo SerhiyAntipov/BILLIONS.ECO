@@ -13,11 +13,11 @@
         position: relative;
         min-height: 705px;
 
-        @media only (max-width: 991px) {
+        @media only  screen and  (max-width: 991px) {
             min-height: 600px;
         }
 
-        @media only (max-width: 576px) {
+        @media only  screen and (max-width: 576px) {
             min-height: 500px;
         }
     }
