@@ -231,7 +231,7 @@ p {
   list-style: none;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 991px) {
   .navbar__wrapper .nav-login {
     border-left: 1px solid #69b433;
   }
@@ -260,7 +260,7 @@ p {
   position: relative;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .navbar__wrapper .nav-social {
     padding: 10px;
     margin-top: 5px;
@@ -379,7 +379,7 @@ p {
   transform: rotate(-45deg);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 991px) {
   .navbar__wrapper .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
   }
@@ -394,9 +394,9 @@ p {
 }
 
 .map {
-  background: url(../img/bg_map-user.jpg) no-repeat;
+  background: url(../img/bg_map.jpg) no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   position: relative;
   height: 927px;
   max-height: calc(100vh - 200px);
