@@ -1698,6 +1698,10 @@ p {
   display: none;
 }
 
+.form-registered .form-row {
+  margin-top: -40px;
+}
+
 .form-registered__input-label {
   display: block;
   color: #8c8c8c;

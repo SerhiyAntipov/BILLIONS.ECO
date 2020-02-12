@@ -1,6 +1,10 @@
 .form-registered {
     display: none;
 
+   .form-row{
+       margin-top: -40px;
+   }
+
     &__input-label {
         display: block;
         color: #8c8c8c;
