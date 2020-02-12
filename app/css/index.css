@@ -1595,13 +1595,17 @@ p {
 }
 
 #form-authorization-wrapper .mfp-close {
-  padding: 10px;
+  padding: 0;
   margin: 0;
+  margin-top: 10px;
   width: 44px;
   height: 44px;
   line-height: 44px;
   min-width: unset;
-  font-size: 28px;
+  font-size: 44px;
+  color: #69b433;
+  box-sizing: border-box;
+  margin-bottom: 0px;
 }
 
 #form-authorization-wrapper .form-title {
@@ -1624,7 +1628,7 @@ p {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 485px) {
   #form-authorization-wrapper .form-title p {
     min-width: 150px;
   }
@@ -1688,6 +1692,42 @@ p {
   #form-authorization-wrapper .form-login__social label {
     margin-bottom: 25px;
   }
+}
+
+.form-registered {
+  display: none;
+}
+
+.form-registered__input-label {
+  display: block;
+  color: #8c8c8c;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.form-registered__input {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #8c8c8c;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form-registered__input:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #69b4337d;
+}
+
+.form-registered .form-group {
+  margin-bottom: 0;
+}
+
+.form-registered .link-bg {
+  background: url(../img/form/registred.png) no-repeat top center;
+  background-size: contain;
+  height: 60px;
+  width: 100%;
 }
 
 .wrapper {
