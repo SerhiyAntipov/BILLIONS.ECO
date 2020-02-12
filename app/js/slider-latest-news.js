@@ -46,7 +46,7 @@ function startLatestNewsSlider() {
         dots: true,
         arrows: false,
         responsive: [{
-                breakpoint: 980,
+                breakpoint: 1200,
                 settings: {
                     infinite: true,
                     adaptiveHeight: true,

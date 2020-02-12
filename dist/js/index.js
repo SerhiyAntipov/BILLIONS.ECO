@@ -36,6 +36,24 @@ $(window).on('load', function () {
     });
     
 })();
+
+//
+//++++++++++++++ POPUP FORM ++++++++++++++++++++++++++++++++++++++++++++++
+(function () {
+    $(function () {
+        $('.form-registred').magnificPopup({
+            items: {
+                src: '#form-authorization-wrapper',
+                type: 'inline',
+            }
+        });
+        $(document).on('click', '.popup-modal-dismiss', function (e) {
+            e.preventDefault();
+            $.magnificPopup.close();
+        });
+    });
+    
+})();
  //
  //++++++++++++++ SMOOTH SCROLL +++++++++++++++++++++++++++++++++++++++++++++++++++
  (function () {

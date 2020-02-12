@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <div class="page-preloader"><span class="spinner"></span></div>
+    <!-- <div class="page-preloader"><span class="spinner"></span></div> -->
     <div class="wrapper" id="wrapper">
         <header class="main-header" id="main-header">
             <div class="container navbar__wrapper">
@@ -46,10 +46,10 @@
                         </ul>
                         <ul class="navbar-nav nav-login">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Log in</a>
+                                <a class="nav-link form-registred" href="#">Log in</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="index-registered.html">Sign in</a>
+                                <a class="nav-link form-registred" href="index-registered.html">Sign in</a>
                             </li>
                         </ul>
                         <ul class="nav-social">
@@ -96,29 +96,28 @@
                 </div>
             </div>
             <div class="login-sub-menu">
-               <div class="login-sub-menu__link-wrapper">
-                    <a href="#" class="vegan">
+                <div class="login-sub-menu__link-wrapper">
+                    <a href="#" class="vegan form-registred">
                         <img src="img/sub-menu/img_01.png" alt="img logo">
                         <p>Я Веган</p>
                     </a>
-               </div>
+                </div>
                 <div class="login-sub-menu__link-wrapper">
-                    <a href="#" class="vegetarian">
+                    <a href="#" class="vegetarian form-registred">
                         <img src="img/sub-menu/img_02.png" alt="img logo">
                         <p>Я Вегетаріанець</p>
                     </a>
                 </div>
                 <div class="login-sub-menu__link-wrapper">
-                    <a href="#" class="support-ecology">
+                    <a href="#" class="support-ecology form-registred">
                         <img src="img/sub-menu/img_03.png" alt="img logo">
                         <p>Я Підтримую Екологію</p>
                     </a>
                 </div>
-                <!-- <div class="flag">Зареєструватись</div> -->
             </div>
             <div class="link">
-                <a href="#"><span>Вхід</span></a>
-                <a href="#">Реєстрація</a>
+                <a href="#" class="form-registred"><span>Вхід</span></a>
+                <a href="#" class="form-registred">Реєстрація</a>
             </div>
         </section>
         <section class="latest-news">
@@ -285,7 +284,63 @@
             <iframe src="https://www.youtube.com/embed/0aMyNqJDGS4"
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-
+        <!-- popup form registration  -->
+        <div id="form-authorization-wrapper" class="white-popup-block mfp-hide">
+            <h2 class="container-header">Форма входу</h2>
+            <div class="form-title">
+                <p class="form-title_login">Вхід</p>
+                <span> або </span>
+                <p class="form-title_registration">Реєстрація</p>
+            </div>
+            <form action="index-registered.html" method="GET" name="form-login" id="form-login" class="form-login">
+                <div class="form-row">
+                    <div class="form-group col-md-6 form-login__social">
+                        <label for="form-login-facebook">
+                            <a href="#" class="form-login__social-label label-facebook" >
+                                <span class="block-start">
+                                    <img src="img/form/link-facebook.png" alt="logo facebook">
+                                </span>
+                                <span>Facebook</span>
+                            </a>
+                        </label>
+                        <input type="text" class="form-login__social-input" id="form-login-facebook"
+                            name="form-login-facebook">
+                        <label for="form-login-twitter">
+                            <a href="#" class="form-login__social-label label-twitter" >
+                                <span class="block-start">
+                                    <img src="img/form/link-twitter.png" alt="logo facebook">
+                                </span>
+                                <span>Twitter</span>
+                            </a>
+                        </label>
+                        <input type="text" class="form-login__social-input" id="form-login-twitter"
+                            name="form-login-twitter">
+                        <label for="form-login-gmail">
+                            <a href="#" class="form-login__social-label label-gmail" >
+                                <span class="block-start">
+                                    <img src="img/form/link-gmail.png" alt="logo facebook">
+                                </span>
+                                <span>Gmail</span>
+                            </a>
+                        </label>
+                        <input type="text" class="form-login__social-input" id="form-login-gmail"
+                            name="form-login-gmail">
+                    </div>
+                    <span class="form-login-separator">або</span>
+                    <div class="form-group col-md-6 form-login__login">
+                       <div>
+                            <label for="form-login-name" class="form-login__input-label">Логін</label>
+                            <input type="text" class="form-login__input" id="form-login-name" name="form-login-name">
+                       </div>
+                        <div>
+                            <label for="form-login-password" class="form-login__input-label">Пароль</label>
+                            <input type="password" class="form-login__input" id="form-login-password" name="form-login-password">
+                        </div>
+                        <button class="btn" type="submit" form="form-login">Вхід</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
     <!-- <script src="modules/jquery/js/jquery.min.js"></script> -->
     <!-- <script src="modules/bootstrap/js/bootstrap.min.js"></script> -->

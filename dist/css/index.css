@@ -396,7 +396,7 @@ p {
 .map {
   background: url(../img/bg_map.jpg) no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   position: relative;
   height: 927px;
   max-height: calc(100vh - 200px);
@@ -1398,6 +1398,296 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+#form-authorization-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 70px 60px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 575px) {
+  #form-authorization-wrapper {
+    padding: 30px 15px;
+  }
+}
+
+#form-authorization-wrapper h2 {
+  text-transform: uppercase;
+  margin-bottom: 55px;
+  line-height: 1.4;
+}
+
+#form-authorization-wrapper h2::after {
+  content: none;
+}
+
+#form-authorization-wrapper .form-login__social-input {
+  display: none;
+}
+
+#form-authorization-wrapper .form-login__social-label {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: center;
+  padding-right: 30px;
+}
+
+#form-authorization-wrapper .form-login .block-start {
+  min-width: 63px;
+  padding: 12px;
+  height: 100%;
+  margin-bottom: 0;
+  flex-grow: 0;
+}
+
+#form-authorization-wrapper .form-login span {
+  flex-grow: 1;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+#form-authorization-wrapper .form-login__input {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #8c8c8c;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#form-authorization-wrapper .form-login__input:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #69b4337d;
+}
+
+#form-authorization-wrapper .form-login__input-label {
+  display: block;
+  color: #8c8c8c;
+  font-size: 1rem;
+  text-align: left;
+}
+
+#form-authorization-wrapper .form-login__login, #form-authorization-wrapper .form-login__social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#form-authorization-wrapper .form-login__social {
+  padding-top: 2rem;
+  padding-right: 50px;
+}
+
+#form-authorization-wrapper .form-login__social label {
+  margin-bottom: 40px;
+}
+
+#form-authorization-wrapper .form-login__social label:nth-child(5) {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  #form-authorization-wrapper .form-login__social {
+    padding-top: 0;
+    padding-right: 0;
+  }
+}
+
+#form-authorization-wrapper .form-login__login {
+  padding-left: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  #form-authorization-wrapper .form-login__login {
+    padding-left: 0;
+  }
+}
+
+#form-authorization-wrapper .form-login .form-row {
+  position: relative;
+}
+
+#form-authorization-wrapper .form-login .form-login-separator {
+  flex-grow: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #8c8c8c;
+  display: flex;
+  height: 90%;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #form-authorization-wrapper .form-login .form-login-separator {
+    display: none;
+  }
+}
+
+#form-authorization-wrapper .form-login .form-login-separator::before {
+  content: "";
+  height: 43%;
+  width: 1px;
+  background-color: #8c8c8c;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -100%);
+}
+
+#form-authorization-wrapper .form-login .form-login-separator::after {
+  content: "";
+  height: 43%;
+  width: 1px;
+  background-color: #8c8c8c;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, 0%);
+}
+
+#form-authorization-wrapper .label-facebook {
+  background-color: #3c5a98;
+}
+
+#form-authorization-wrapper .label-facebook .block-start {
+  background-color: #324e89;
+}
+
+#form-authorization-wrapper .label-twitter {
+  background-color: #00abf0;
+}
+
+#form-authorization-wrapper .label-twitter .block-start {
+  background-color: #009ad9;
+}
+
+#form-authorization-wrapper .label-gmail {
+  background-color: #e65f4e;
+}
+
+#form-authorization-wrapper .label-gmail .block-start {
+  background-color: #d74d3c;
+}
+
+#form-authorization-wrapper button {
+  min-width: 160px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin: 10px auto;
+  margin-bottom: 0;
+}
+
+#form-authorization-wrapper a:hover {
+  color: #ffffff;
+}
+
+#form-authorization-wrapper .mfp-close {
+  padding: 10px;
+  margin: 0;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  min-width: unset;
+  font-size: 28px;
+}
+
+#form-authorization-wrapper .form-title {
+  margin: 0 auto;
+  margin-bottom: 70px;
+  background-color: #69b433;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+#form-authorization-wrapper .form-title p {
+  display: inline-block;
+  text-align: center;
+  padding: 4px 20px;
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 1.7rem;
+  min-width: 200px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+  #form-authorization-wrapper .form-title p {
+    min-width: 150px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  #form-authorization-wrapper .form-title {
+    display: flex;
+    flex-direction: column;
+  }
+  #form-authorization-wrapper .form-title .form-title_login {
+    margin-right: 0;
+  }
+  #form-authorization-wrapper .form-title span {
+    box-shadow: 0px 0px 2px 1px #00000045;
+    left: 20% !important;
+  }
+  #form-authorization-wrapper .form-title p {
+    padding-left: 90px;
+  }
+}
+
+#form-authorization-wrapper .form-title span {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #69b433;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+#form-authorization-wrapper .form-title_login {
+  margin-right: 40px;
+  background-color: #69b433;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  #form-authorization-wrapper .form-title_login {
+    margin-right: 60px;
+  }
+}
+
+#form-authorization-wrapper .form-title_registration {
+  background-color: #8c8c8c;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  #form-authorization-wrapper h2 {
+    margin-bottom: 30px;
+  }
+  #form-authorization-wrapper .form-title {
+    margin-bottom: 30px;
+  }
+  #form-authorization-wrapper .form-login__social label {
+    margin-bottom: 25px;
+  }
 }
 
 .wrapper {
