@@ -1702,6 +1702,12 @@ p {
   margin-top: -40px;
 }
 
+@media only screen and (max-width: 768px) {
+  .form-registered .form-row {
+    margin-top: -20px;
+  }
+}
+
 .form-registered__input-label {
   display: block;
   color: #8c8c8c;
